@@ -1,0 +1,29 @@
+{
+  "name": "@ungap/remove",
+  "version": "0.0.0",
+  "description": "An Element.prototype.remove polyfill",
+  "main": "index.js",
+  "unpkg": "min.js",
+  "scripts": {
+    "build": "terser index.js -m -c -o min.js"
+  },
+  "keywords": [
+    "Element",
+    "prototype",
+    "remove",
+    "polyfill"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungap/remove.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ungap/remove/issues"
+  },
+  "homepage": "https://github.com/ungap/remove#readme"
+}

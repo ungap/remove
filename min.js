@@ -1,0 +1,1 @@
+[Element,CharacterData,DocumentType].forEach((function(e){"remove"in e.prototype||(e.prototype.remove=this)}),(function(){this.parentNode&&this.parentNode.removeChild(this)}));
