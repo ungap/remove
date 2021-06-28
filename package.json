@@ -1,6 +1,6 @@
 {
   "name": "@ungap/remove",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An Element.prototype.remove polyfill",
   "main": "index.js",
   "unpkg": "min.js",
